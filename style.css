@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: url('DALL·E\ 2024-11-17\ 19.16.49\ -\ A\ vibrant\,\ detailed\ 4K\ background\ inspired\ by\ Hypixel\ Skyblock.\ The\ scene\ features\ a\ colorful\ floating\ island\ with\ lush\ greenery\,\ towering\ trees\,\ and\ .webp') no-repeat center center fixed;
+    background: url('background.png') no-repeat center center fixed;
     background-size: cover;
     color: #333;
 }
