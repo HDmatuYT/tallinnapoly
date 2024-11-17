@@ -4,28 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enchanted Eye of Ender Cost Calculator</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
-
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
     <h1>Eye of Ender Cost Calculator</h1>
     <div class="container">
-        <label for="coinsAvailable">Enter how many coins you have:</label>
-<input type="text" id="coinsAvailable" placeholder="Enter your coins" oninput="formatCoinsInput(this)">
-
-
-        <label for="quantity">Enter how many Enchanted Eyes of Ender you want to craft:</label>
-        <input type="number" id="quantity" placeholder="Number of Enchanted Eyes" min="1">
-        
-    
-        
-
-        <button onclick="calculateMaterials()">Calculate Materials and Cost</button>
-        
-        
+        <div class="input-section">
+            <label for="coinsAvailable">Enter how many coins you have:</label>
+            <input type="text" id="coinsAvailable" placeholder="Enter your coins">
+            <button onclick="calculateMaterials()">Calculate</button>
+        </div>
         <div id="result" class="result"></div>
     </div>
+    <div id="priceDisplay" class="price-display"></div>
 
-
-</head>
+    <script src="script.js"></script>
 </body>
 </html>

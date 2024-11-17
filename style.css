@@ -1,26 +1,33 @@
-
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
-    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background: url('DALL·E\ 2024-11-17\ 19.16.49\ -\ A\ vibrant\,\ detailed\ 4K\ background\ inspired\ by\ Hypixel\ Skyblock.\ The\ scene\ features\ a\ colorful\ floating\ island\ with\ lush\ greenery\,\ towering\ trees\,\ and\ .webp') no-repeat center center fixed;
+    background-size: cover;
     color: #333;
 }
+
 h1 {
     text-align: center;
-    color: #5b5b5b;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
+
 .container {
     max-width: 500px;
     margin: auto;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background for readability */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 label {
     font-weight: bold;
 }
-input[type="number"], input[type="text"] {
+
+input[type="number"],
+input[type="text"] {
     width: 100%;
     padding: 8px;
     margin: 10px 0;
@@ -28,6 +35,7 @@ input[type="number"], input[type="text"] {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+
 button {
     width: 100%;
     padding: 10px;
@@ -38,13 +46,42 @@ button {
     border-radius: 4px;
     cursor: pointer;
 }
+
 button:hover {
     background-color: #45a049;
 }
+
 .result {
     margin-top: 20px;
     padding: 10px;
     background-color: #e2e2e2;
     border-radius: 4px;
     text-align: center;
+}
+
+.price-display {
+    position: absolute;
+    right: 10%;
+    top: 20%;
+    max-width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent background for readability */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.price-display h3 {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.price-display ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.price-display li {
+    margin-bottom: 5px;
 }
