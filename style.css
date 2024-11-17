@@ -59,17 +59,6 @@ button:hover {
     text-align: center;
 }
 
-.price-display {
-    position: absolute;
-    right: 10%;
-    top: 20%;
-    max-width: 250px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    background: rgba(255, 255, 255, 0.9); /* Semi-transparent background for readability */
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
 
 .price-display h3 {
     margin: 0;
