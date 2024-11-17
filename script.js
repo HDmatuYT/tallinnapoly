@@ -2,7 +2,7 @@ async function fetchBazaarPrices() {
     try {
         const response = await fetch('https://api.hypixel.net/skyblock/bazaar');
         const data = await response.json();
-
+        
         if (!data.success) {
             throw new Error('kle su bazaar ei pr täna, ole pai ja proovi uuesti');
         }
@@ -10,7 +10,7 @@ async function fetchBazaarPrices() {
         // hinnad eep ja br jaoks
         const enchantedEnderPearl = data.products['ENCHANTED_ENDER_PEARL'].quick_status.sellPrice;
         const blazeRod = data.products['BLAZE_ROD'].quick_status.sellPrice;
-
+        const enchantedEyeofEnder = data.products['ENCHANTED_EYE_OF_ENDER'].quick_status.sellPrice;
         return {
             enchantedEnderPearl,
             blazeRod
